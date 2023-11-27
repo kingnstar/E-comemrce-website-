@@ -1,0 +1,167 @@
+@media (max-width:992px) {
+ 
+  .menu-btn i{
+    display: block;
+    cursor: pointer;
+  }
+  .navbar1 ul {
+    position: fixed;
+    top: 80px;
+    left: 100%;
+    background: #e3e6f3;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    display: block;
+    transition: all 0.3s ease;
+  }
+  
+  .navbar1 ul {
+    /* margin: 30px; */
+    height: max-content;
+  }
+  .navbar1 ul li{
+    margin-bottom: 20px;
+  }
+  #click:checked~ul{
+    left: 0;
+  }
+  .bag{
+    display: none;
+  }
+
+  .lg-section{
+    display: flex;
+    flex-direction: column;
+  }
+  .lg-section>*{
+    min-width:580px;
+    margin-bottom: 30px;
+  }
+  .sm-section{
+    flex-direction: column;
+  }
+  .sm-section> div{
+    margin-bottom: 30px;
+    object-fit: cover;
+  }
+  .sm-section div{
+    min-width: 580px;
+  }
+  #newsletter{
+    /* justify-content: space-around; */
+    flex-direction: column;
+  }
+  .form input{
+    width: 120px;
+  }
+  .form button{
+    width: 100px;
+  }
+  .footer{
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    margin-bottom: 30px;
+  }
+  .ftr{
+    padding: 40px 60px;
+  }
+  
+}
+@media (max-width:360px) {
+  .top-banner{
+      display: flex;
+  }
+  .top-banner>*{
+  font-size: 28px;
+}
+
+.top-banner button{
+  justify-content: flex-start;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.services{
+  align-items: center;
+  justify-content: center;
+}
+
+  
+}
+@media (min-width:320px) and (max-width:550px) {
+  .product{
+    justify-content: center;
+    width: 160px;
+  }
+  .lg-section>*{
+    min-width:400px;
+    margin-bottom: 30px;
+  }
+  .sm-section div{
+    min-width: 400px;
+  }
+  .form input{
+    width: 120px;
+  }
+  .form button{
+    width: 100px;
+  }
+  .services{
+    align-items: center;
+    justify-content: center;
+  }
+  .featured-items{
+    align-items: center;
+    justify-content: center;
+  }
+  
+}
+@media (min-width:555px) and (max-width:720px) {
+  .product{
+    justify-content: center;
+    width: 200px;
+  }
+  .lg-section>*{
+    min-width:500px;
+    margin-bottom: 30px;
+  }
+  .sm-section div{
+    min-width: 500px;
+  }
+  .form input{
+    width: 120px;
+  }
+  .form button{
+    width: 100px;
+  }
+
+  
+  
+}
+
+@media (min-width:993px) and (max-width:1200px) {
+  .lg-section>*{
+    min-width:490px;
+  }
+  
+  
+}
+
+@media (max-width:319px) {
+  .lg-section>*{
+    min-width:280px;
+    margin-bottom: 30px;
+  }
+  .sm-section div{
+    min-width: 280px;
+  }
+  .form input{
+    width: 120px;
+  }
+  .form button{
+    width: 100px;
+  }
+  
+}
